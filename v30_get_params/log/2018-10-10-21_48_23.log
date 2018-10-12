@@ -1,0 +1,48 @@
+2018-10-10 21:48:23 crawl_params.py [line:278] INFO: [ START ] 对参数进行<重新>抓取
+2018-10-10 21:48:23 crawl_params.py [line:280] INFO: <进程开始> 2018-10-10 21:48:23.599913
+2018-10-10 21:48:23 crawl_params.py [line:267] INFO: 账号:jamaal3238的requests.session对象已过期,重新登录获取
+2018-10-10 21:49:13 login.py [line:43] INFO: 登录状态检查,返回响应内容:{
+  "PersonHeader" : {
+    "contactName" : "ABDULKADIR FARAH",
+    "personId" : "100358515"
+  },
+  "PersonGlobalIssues" : {
+    "globalIssue" : null
+  },
+  "PersonLocalIssues" : { },
+  "DealerGlobalIssues" : {
+    "globalIssue" : null
+  },
+  "DealerLocalIssues" : { },
+  "DealerGroupIssues" : {
+    "groupIssue" : [ {
+      "issueCode" : "2007",
+      "personIssueAffectsAllDealerships" : "No",
+      "dealerId" : "5178969",
+      "issueComment" : "VEHICLE AR AGING ISSUE BY ORACLE",
+      "groupIssueName" : "VEHICLE AR AGING ISSUE BY ORACLE",
+      "solution" : "",
+      "accountName" : "SUNSET AUTO SALES LLC",
+      "issueType" : "Group",
+      "statusChange" : "False",
+      "informationOnly" : "False",
+      "issueName" : "VEHICLE AR AGING ISSUE BY ORACLE",
+      "issueCreatedDate" : "10/4/2018 2:42 AM",
+      "englishMessage" : "<br><font color=#ff0000><b>STATUS: Your ability to bid or sell in auction is currently blocked. (Issue Code 2007)</b></font><br><br><b>Issue:</b> This account has a vehicle balance at an Enhanced location that is 8 days or more past due.<br><br><b>Solutions:</b><br>&#8226; <i>FASTEST</i> > Log into <a href=\"https://www.manheim.com/secureredirect?product=CUSTOMERPORTAL&url=/payment_center\" target=\"_blank\">Payments (My Account)</a> and make an ACH payment. <i>If you are a Cash Client and payment is made via myAccount or a Company Check, then the vehicle(s) will be held for 3 business days before being released for pickup.</i><br><br>&#8226; <i>FASTER</i> > Go to your <a href=\"https://publish.manheim.com/en/locations.html?\" target=\"_blank\">nearest auction location</a> and make a payment.<br><br>&#8226; <i>FAST</i> > Floor the vehicle under <a href=\"https://www.manheim.com/secureredirect?product=CUSTOMERPORTAL&url=/buyer_dashboard\"  target=\"_blank\">Purchases</a> or make a Wire Transfer. <i>Domestic Wire Transfers may take up to 24 business hours before they are received. International Wire Transfers may take up to 3 business days before they are received.</i>",
+      "frenchMessage" : "",
+      "spanishMessage" : "",
+      "issueImpact" : "Both"
+    } ]
+  },
+  "totalIssues" : "1",
+  "personalkoIssuesList" : [ ],
+  "globalkoIssuesList" : [ ],
+  "myPersonalGlobalIssues" : [ ],
+  "myDealerGlobalIssues" : [ ],
+  "myPersonalGlobalAllDealershipIssues" : [ ]
+}
+2018-10-10 21:49:13 login.py [line:46] INFO: 账号: jamaal3238 登陆成功
+2018-10-10 21:49:13 single_mongo.py [line:34] INFO: session_set过期时间设置成功, 过期时间:1800
+2018-10-10 21:49:13 login.py [line:69] INFO: 向mongo中更新写入账号jamaal3238的已登录requests.session对象
+2018-10-10 21:49:23 crawl_params.py [line:142] INFO: 发送请求9647bc449620a5c289424674d850a19e8372a120 <POST year https://www.manheim.com/members/powersearch/getRefinements.do?RefinementId=10>
+2018-10-10 21:49:23 crawl_params.py [line:176] INFO: 抓取year_list <POST https://www.manheim.com/members/powersearch/getRefinements.do?RefinementId=10>

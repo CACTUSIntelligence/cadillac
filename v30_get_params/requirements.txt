@@ -1,0 +1,4 @@
+requests
+pymongo
+lxml
+w3lib
